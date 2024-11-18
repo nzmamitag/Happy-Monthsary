@@ -1,0 +1,13 @@
+body{
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}

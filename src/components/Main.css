@@ -1,0 +1,42 @@
+.mainContainer {
+    display: flex; /* Enables flexbox for layout control */
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Makes the container full screen */
+    text-align: center; /* Centers text inside the container */
+}
+
+/* Animation Text Styling */
+.roleAnimation {
+    padding: 10px;
+    font-size: 10vh;
+}
+
+/* Button Styling */
+.links {
+    margin-top: 20px; /* Adds spacing below the animation */
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex; /* Flexbox for centering the button text */
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    text-decoration: none;
+    color: white; /* Adjust text color */
+    font-size: 1.2rem;
+}
+
+.links:hover{
+    background-color: white;
+    color: black;
+}
+
+/* Mobile Screen View */
+@media only screen and (max-width: 480px) {
+    .mainContainer {
+        color: white;
+    }
+}
